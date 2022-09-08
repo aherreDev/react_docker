@@ -1,0 +1,27 @@
+#navbar {
+  position: relative;
+
+  a.isActive {
+    color: white;
+  }
+
+  a.nav-choice {
+    margin: 0px 10px;
+  }
+
+  .navbar__options {
+    display: flex;
+    position: absolute;
+    background-color: teal;
+    bottom: -40px;
+    left: -1rem;
+    width: calc(100% + 1rem);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    &.hide {
+      display: none;
+    }
+  }
+}
